@@ -1,0 +1,42 @@
+*{
+font-family:arial;
+	font-size:70px;
+	text-align:center;
+}
+#h1{
+	
+	 -webkit-text-fill-color: white;
+     -webkit-text-stroke-width:2px;
+   	 -webkit-text-stroke-color:blue;
+}
+div{
+background-color:black;
+}
+#h4{
+	
+	-webkit-text-stroke-width:2px;
+	-webkit-text-stroke-color:blue;
+	background-image:url(pic6.jpeg);
+	background-size:50% 50%;
+	-webkit-background-clip:text;
+	color:transparent;	
+}
+#h2{
+	
+	-webkit-text-fill-color:yellow;
+	-webkit-text-stroke-width:2px;
+    -webkit-text-stroke-color:blue;
+	animation: colorchange 2s infinite;
+}
+@keyframes colorchange {
+  0% {-webkit-text-stroke: 5px red;}
+  100% {-webkit-text-stroke: 5px green; }
+}
+#h3 {
+  color: white;
+  text-shadow:
+   -1px -1px 0 red,  
+    -1px 1px 0 green,
+    -1px 0px 0 orange,
+     -1px 1px 0 blue;
+}

@@ -1,0 +1,23 @@
+<script>
+	
+	var number=prompt(("enter the  number"));
+	var sum=0;
+	var rev=0;
+	var reminter=0;
+	var count=0;
+	
+		while(number!=0)
+		{
+		    reminter=number%10;
+			sum=sum+reminter;
+			rev=rev*10+reminter;
+			
+			number=(number/10);
+			count++;
+		}	
+  document.write(" total  "+sum+"<br>");
+  document.write("reverse the total  "+rev);
+	 document.write(" count  "+count+"<br>");
+		
+	
+</script>

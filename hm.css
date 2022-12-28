@@ -1,0 +1,23 @@
+section{
+border:2px solid black;
+background-color:black;
+	width:100%;
+	height:40px;
+	display:flex;
+	margin:0px;
+}
+artical{
+	
+	color:white;
+	border:2px solid white;
+	padding:10px 0px 0px 0px;
+	width:50%;
+	text-align:center;
+}
+artical:hover{
+			background-color:red;
+		color:white;
+			cursor:pointer;
+	border-radius:40px;
+		}
+		

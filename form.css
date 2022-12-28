@@ -1,0 +1,22 @@
+
+		body
+		{
+			background-image: url('pic8.jpeg'),url('pic6.jpeg'),url('pic8.jpeg'),url('pic6.jpeg');
+			background-size:20%;
+			background-position:top,left,bottom,right;
+			background-repeat:repeat-x,repeat-y;
+			background-attachment:fixed;
+			width: 50%;
+			margin: auto;
+			text-indent:50px;
+ 			padding: 11%;
+			color : blue;
+		}
+		h1{
+			text-align:center;
+			color:green;
+			text-decoration:underline;
+			text-decoration-color:red;
+		}
+	
+
