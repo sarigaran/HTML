@@ -1,0 +1,306 @@
+*{
+	color:lightgoldenrodyellow;	
+}
+body{
+width: 100%;
+	height: auto;
+}
+#id1{
+	padding: 0px;
+	margin: 0px;
+	width:100%;
+	background-image: url(back.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%; 
+	text-align:center;
+	width:100%;
+	height: 650px;
+}
+a{
+	text-decoration: none;
+	margin: 10px 10px 10px 10px;
+}
+a:hover{
+	padding: 0px 10px 0px 10px;
+	color: #DD5903;
+	cursor: pointer;
+	
+	border: 2px solid orange;
+	border-radius: 20px;
+
+}
+header{
+	display: inline-flex;
+	text-align: center;
+	height: 50px;
+	width: 100%;
+	border-bottom: 1px solid #6B6863;
+}
+
+#a{
+	font-family: italic;
+	color: #f73e06;
+}
+#head1{
+	
+	color:rgb(208, 255, 0);
+	font-family:forte;
+	margin:15px 100px 0px 160px;
+}
+#head2{
+	color:rgb(248, 204, 8);;
+	margin:4px 0px 0px 150px;
+}
+#head5{
+	width: 100%;
+	height: 300px;
+}
+nav input{
+	color:black;
+	background-color: transparent;
+	padding: 10px 20px 10px 20px;
+}
+artical{
+	display: block;
+	color: black;
+}
+nav a{
+	display: inline-block;
+	padding:  30px 10px 30px 10px;
+	color: white;
+	font-size: 30px;
+	font-weight: bold;
+	position: sticky;
+	top:0px;
+
+}
+#btn{
+background-color: orange;
+}
+
+#sec,input{
+	background-color: black;
+}
+#ar2,#ar3{
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	text-align: center;
+}
+#h1{
+	
+	margin: 50px 200px 0px 50px;
+	font-size: 20px;
+}
+#h2{
+	
+	font-size: 80px;
+	background-size: 50% 50%;
+    background-clip: border-box;
+	-moz-background-clip: border-box;
+	
+}
+#h3{
+	font-size: 30px;
+	
+}
+#h6{
+	float: left;
+	color: white;
+}
+ul #img1{
+	
+	border-radius: 50%;
+	width: 200px;
+	height: 150px;
+	float: left;
+}
+#img2{
+	float: right;
+	height: 165px;
+	width: 50%;
+}
+input{
+	text-align: center;
+	margin:0px 0px 0px 200px ;
+	padding:10px 10px 10px 10px ;
+}
+#sec1{
+	float: left;
+	width: 59%;
+	height: 650px;
+	
+}
+#sec2{
+	float: right;
+	width: 40%;
+	height: 650px; 
+	
+}
+#sec2 img{
+	height: 550px;
+	width: 70%;
+    margin: 30px 20px 15px 60px;
+	
+}
+
+#ar1{
+	margin: 80px 0px 0px 35px ;
+	color: red;
+	font-size: 20px;
+	font-style:arial;
+	font-weight: bold;
+}
+#ar2{
+	margin: 40px 0px 0px 35px ;
+	margin-top: 70px;
+	font-size: 50px;
+	font-family:urw bookman;
+	
+}
+#em{
+	color: black;
+	font-size: 50px;
+}
+#ar3{
+	font-size: 25px;
+	margin: 40px 0px 0px 35px ;
+	text-align: left;
+	font-family: timmana;
+}
+
+#vs{
+	display: flex;
+	width: 100%;
+	height: 600px;
+	
+}
+#vs1{
+margin: 50px;
+width: 50%;
+
+}
+#vs2{
+	width: 25%;
+	margin: 50px 10px 20px 10px ;
+}
+
+#vs3{
+	width: 25%;
+	margin: 75px 80px 20px 0px ;
+
+}
+#vs2 img{
+	height: 450px;
+	width: 300px;
+}
+
+#vs3 img{
+	height: 400px;
+	width: 300px;
+
+}
+
+#h4{
+	color: black;
+}
+#sph1{
+	margin: 80px 0px 0px 35px ;
+	color: red;
+	font-style:arial;
+	font-weight: bold;
+	float: right;
+}
+#sph2{
+	
+	color:black;
+	font-size: 46px;
+	font-style:italic;
+	float: right;
+}
+#sph3{
+	color:black;
+	font-size: 20px;
+	font-style:italic;
+	float:right;
+}
+#fs {
+	
+	width: 100%;
+	height: 500px;
+	text-align: center;
+	background-color: #000000;
+}
+#form{
+	margin: 0px 50px 10px -100px ;
+	display: inline-flex;
+	float: left;
+}
+#form input{
+	color: white;
+	
+	
+}
+#p1{
+	padding: 130px 0px 0px 0px ;
+	font-weight: bold;
+	font-size: 20px;
+	color:#DD5903;
+	
+}
+#p2{
+	padding: 0px 0px 10px 0px ;
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 60px;
+}
+#in4{
+	padding: 20px 20px 20px 20px ;
+	background-color: #DD5903;
+}
+
+#foo{
+	padding: 50px 0px 0px 0px;
+	width: 100%;
+	height: 550px;
+    background-color: #6B6863;
+	text-align: center;
+	
+}
+#foo1{
+	width: 100%;
+	height: 400px;
+}
+#foo2{
+	
+	display: inline-block;
+	width: 100%;
+	height: 100px;	
+}
+
+#foo2 a{
+	margin: 5px 20px 20px 20px;
+	float: right;
+}
+#sep1,#sep2{
+	display: inline-block;
+}
+.log{
+	margin: 30px 10px 10px 10px;
+	display: inline-block;
+	height: 30px;
+	width: 30px;
+}
+#sep{
+	
+	margin: 0px 30px 0px 30px;
+}
+#logo1{
+	height: 20px;
+	width: 20px;
+}
+#foo section{
+	display: inline-block;
+	width: 25%;
+	height: 300px;
+	border: 2px solid black;
+	
+}
+
