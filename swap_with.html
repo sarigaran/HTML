@@ -2,12 +2,19 @@
 var a=parseInt(prompt("enter the first number"));
 var b=parseInt(prompt("enter the second number"));
 var c=0;
-
+var d=confirm("are you swap the variable ? ");
+document.write("first number is "+a+"<br>");
+document.write("first number is "+b+"<br>");
+if(d==true){
 c=a;
 a=b;
 b=c;
-
-
+document.write("after swapping");
 document.write(a);
 document.write(b);
+   }
+else{
+document.write("run again")
+}
+
 </script>

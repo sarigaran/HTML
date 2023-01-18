@@ -1,0 +1,24 @@
+<style>
+img{
+height : 300px;
+width : 300px;
+}
+</style>
+<body>
+<img src="image1.jpeg" id="pi" onmouseover="over()" onmouseout="out()">
+</body>
+<script>
+
+function over()
+{
+p=document.getElementById("pi");
+p.src="pic1.jpg";
+p.style.borderRadius="50%";
+}
+
+function out()
+{
+p.src="image1.jpeg";
+p.style.borderRadius="0";
+}
+</script>

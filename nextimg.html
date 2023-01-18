@@ -1,0 +1,29 @@
+<style>
+img{
+height:300px;
+width:300px;
+}
+
+</style>
+
+<body>
+<img src="image1.jpeg" id="image">
+<input type="button" value=">>"  onclick="nxt()">
+<input type="radio">
+</body>
+<script>
+i=0;
+setInterval(nxt,1);
+function nxt(){
+p=document.getElementById("image");
+a=["pic1.jpg","pic6.jpeg","pic7.jpeg","pic1.jpeg","image1.jpeg"];
+p.src=a[i];
+i++;
+if(i==a.length){
+i=0;
+
+}
+}
+
+
+</script>

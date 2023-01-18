@@ -1,0 +1,23 @@
+<body>
+<textarea rows="5" id="temp"> </textarea>
+<input type="checkbox" id="chk" onclick="fun()">both are same ?
+<textarea rows="5" id="pem"> </textarea>
+</body>
+<script>
+function fun(){
+t=document.getElementById("temp");
+p=document.getElementById("pem");
+c=document.getElementById("chk");
+ if(c.checked==true){
+ p.value=t.value;
+ p.disabled=true;
+ }else
+ {
+ p.value=" ";
+ p.disabled=false;
+ }
+}
+
+
+
+</script>
