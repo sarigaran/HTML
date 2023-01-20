@@ -1,0 +1,22 @@
+<body>
+<input type="checkbox" id="chk" onclick="show()">Experience ?
+<select id="exbox">
+<option>--select--</option>
+<option>CSE</option>
+<option>EEE</option>
+<option>ECE</option>
+</select>
+</body>
+<script>
+eb=document.getElementById("exbox");
+eb.style.display="none";
+function show(){
+c=document.getElementById("chk");
+if(c.checked==true){
+eb.style.display="inline";
+}
+else{
+eb.style.display="none";
+}
+}
+</script>

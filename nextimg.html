@@ -9,11 +9,11 @@ width:300px;
 <body>
 <img src="image1.jpeg" id="image">
 <input type="button" value=">>"  onclick="nxt()">
-<input type="radio">
+<input type="button" value="<<"  onclick="pre()">
 </body>
 <script>
 i=0;
-setInterval(nxt,1);
+setInterval(nxt,2000);
 function nxt(){
 p=document.getElementById("image");
 a=["pic1.jpg","pic6.jpeg","pic7.jpeg","pic1.jpeg","image1.jpeg"];
@@ -21,7 +21,14 @@ p.src=a[i];
 i++;
 if(i==a.length){
 i=0;
+}
+}
 
+function pre(){
+p.src=a[i];
+i--;
+if(i==a.length){
+a.length-1;
 }
 }
 

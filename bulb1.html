@@ -1,24 +1,19 @@
-<style>
-img{
-height : 300px;
-width : 300px;
-}
-</style>
-<body>
-<img src="bulb_off.jpg" id="bulp" >
-<input type="button" value="on" id="btn" onclick="on()">
 
+
+<body>
+<input type="button" value="off" id="btn" onclick="on()">
+<img src="bulb_off.jpg" id="bulp" >
 </body>
 <script>
 function on(){
 p=document.getElementById("bulp");
 b=document.getElementById("btn");
-if(b.value=="on"){
-b.value="off";
+if(b.value=="off"){
+b.value="on";
 p.src="bulp_on.jpeg";
 }
 else {
-b.value="on";
+b.value="off";
 p.src="bulb_off.jpg";
 }
 

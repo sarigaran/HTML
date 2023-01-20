@@ -1,0 +1,23 @@
+<body>
+		<input type="radio" name="radio" id="r1" onclick="chk">
+		<label >i accept the aggrement</label><br>
+		<input type="radio" name="radio" id="r2">
+		<label >i do not accept the aggrement</label><br>
+		<input type="button"  value="< back">
+		<input type="button" id="btn" value="next >" disabled >
+		<input type="button"  value="cancel ">
+</body>
+<script>
+
+function chk(){
+	p=document.getElementById("r1");
+	a=document.getElementById("btn");
+if(p.checked==true){
+    a.disabled=false;
+}
+else{
+    a.disabled=true;
+}
+
+}
+</script>
